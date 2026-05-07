@@ -15,6 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = OmniAuth::Sabia::VERSION
 
-  gem.add_dependency 'omniauth', '~> 1.6'
+  gem.add_dependency 'omniauth', '>= 1.6', '< 3.0'
   gem.add_dependency 'omniauth-oauth2', '>= 1.4.0', '< 2.0'
 end
